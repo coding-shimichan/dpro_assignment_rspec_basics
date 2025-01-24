@@ -5,6 +5,8 @@ ruby '3.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '6.1.7.7'
+# Use concurrent-ruby v1.3.4
+gem 'concurrent-ruby', '1.3.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
